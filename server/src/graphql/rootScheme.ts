@@ -7,6 +7,7 @@ import seriesScheme from "./Series/sheme";
 import episodeScheme from "./Episode/sheme";
 import movieScheme from "./Movie/sheme";
 import streamingServiceScheme from "./StreamingService/sheme";
+import subscriptionScheme from "./Subscription/sheme";
 
 export const rootSchema = mergeSchemas({
     schemas: [
@@ -16,6 +17,7 @@ export const rootSchema = mergeSchemas({
         episodeScheme,
         movieScheme,
         seriesScheme,
-        streamingServiceScheme
+        streamingServiceScheme,
+        subscriptionScheme,
     ],
 });
